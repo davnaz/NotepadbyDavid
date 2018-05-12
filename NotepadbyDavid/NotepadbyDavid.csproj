@@ -120,5 +120,10 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="edit-underline-512.png" />
+    <Resource Include="Italic-512.png" />
+    <Resource Include="transform-formatting-bold-512.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

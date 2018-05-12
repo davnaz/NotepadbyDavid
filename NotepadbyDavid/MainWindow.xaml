@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="803">
     <Grid>
-        
+        <Grid Margin="0,10,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RichTextBox Margin="10" Grid.Row="1" BorderBrush="#FF2B59E6">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run FontWeight="Bold" Text="RichTextBox  "/>
+                        <Run Text="dfvdvf     " TextDecorations="Underline"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="55,0,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="145,0,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="190,0,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        </Grid>
+
     </Grid>
 </Window>
