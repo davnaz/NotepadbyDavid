@@ -48,7 +48,7 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <RichTextBox Margin="10" Grid.Row="1" BorderBrush="#FF2B59E6">
+            <RichTextBox x:Name="textEditor" Margin="10" Grid.Row="1" BorderBrush="#FF2B59E6">
                 <FlowDocument>
                     <Paragraph>
                         <Run FontWeight="Bold" Text="RichTextBox  "/>
@@ -68,7 +68,7 @@
                 </Button.Background>
                 
             </Button>
-            <Button x:Name="button_saveFile" HorizontalAlignment="Left" Margin="55,0,0,0" VerticalAlignment="Top" Width="40" Height="40" >
+            <Button x:Name="button_saveFile" HorizontalAlignment="Left" Margin="55,0,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="button_saveFile_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="Save_black-512.png" Stretch="UniformToFill">
                         <ImageBrush.RelativeTransform>
