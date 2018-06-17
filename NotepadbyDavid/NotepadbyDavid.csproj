@@ -123,11 +123,13 @@
   <ItemGroup>
     <Resource Include="edit-underline-512.png" />
     <Resource Include="Italic-512.png" />
-    <Resource Include="transform-formatting-bold-512.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Save_black-512.png" />
     <Resource Include="w512h5121390727869addfile512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bold-icon-23247.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
